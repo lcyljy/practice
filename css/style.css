@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 20px;
+  width: 80%;
+  background-color: #666666;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 12px;
+  margin: 10%;
+}
+
+.navbar__logo {
+  margin-left: 0px;
+  font-size: 24px;
+  display: flex;
+  list-style: none;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__menu li {
+  font-size: auto;
+  padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+  font-size: 120%;
+  color: #639ebe;
+}
